@@ -1,0 +1,1318 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_12758bc759e546c08f4d79c3eb222a02 {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_12758bc759e546c08f4d79c3eb222a02" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_12758bc759e546c08f4d79c3eb222a02 = L.map(
+                                  'map_12758bc759e546c08f4d79c3eb222a02',
+                                  {center: [49.26728210526316,-123.11557736842104],
+                                  zoom: 12,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_bf5b811ae61d4950b5c46c135cd3b166 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_12758bc759e546c08f4d79c3eb222a02);
+        
+    
+
+            var marker_5c7ee16432af4e4cb6110125d1f2051e = L.marker(
+                [49.27827,-123.07236999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_d666301644d84bd29f1dfb50624167f2 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5c7ee16432af4e4cb6110125d1f2051e.setIcon(icon_d666301644d84bd29f1dfb50624167f2);
+            
+    
+            var popup_491cc7ca337d45c981fdae6f4554806a = L.popup({maxWidth: '300'});
+
+            
+                var html_796c47db1357496a9b4a5fe0a84f4f9d = $('<div id="html_796c47db1357496a9b4a5fe0a84f4f9d" style="width: 100.0%; height: 100.0%;">637617-Entire home/apt-under 250-150.0</div>')[0];
+                popup_491cc7ca337d45c981fdae6f4554806a.setContent(html_796c47db1357496a9b4a5fe0a84f4f9d);
+            
+
+            marker_5c7ee16432af4e4cb6110125d1f2051e.bindPopup(popup_491cc7ca337d45c981fdae6f4554806a);
+
+            
+        
+    
+
+            var marker_9f129d567a854c6a9bb26aa8fa18b97f = L.marker(
+                [49.26056,-123.15874],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_4e2b568a579c464ba8372756b7388ced = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9f129d567a854c6a9bb26aa8fa18b97f.setIcon(icon_4e2b568a579c464ba8372756b7388ced);
+            
+    
+            var popup_d69bd3b999cb4bc5b25fc72528b38060 = L.popup({maxWidth: '300'});
+
+            
+                var html_c5c9d4d451934a83813ac8e7823f6fcf = $('<div id="html_c5c9d4d451934a83813ac8e7823f6fcf" style="width: 100.0%; height: 100.0%;">1113551-Entire home/apt-above 250-479.0</div>')[0];
+                popup_d69bd3b999cb4bc5b25fc72528b38060.setContent(html_c5c9d4d451934a83813ac8e7823f6fcf);
+            
+
+            marker_9f129d567a854c6a9bb26aa8fa18b97f.bindPopup(popup_d69bd3b999cb4bc5b25fc72528b38060);
+
+            
+        
+    
+
+            var marker_861014279a3a4ee58cef81e6e2f22f2f = L.marker(
+                [49.28402,-123.0657],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_18bb32f8beb34af2b1a6712f42251798 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_861014279a3a4ee58cef81e6e2f22f2f.setIcon(icon_18bb32f8beb34af2b1a6712f42251798);
+            
+    
+            var popup_1e770dc04f5c448f82b6ca9edf7963ca = L.popup({maxWidth: '300'});
+
+            
+                var html_53c16bb5f271461e8800a5858e8be164 = $('<div id="html_53c16bb5f271461e8800a5858e8be164" style="width: 100.0%; height: 100.0%;">2644110-Entire home/apt-under 250-110.0</div>')[0];
+                popup_1e770dc04f5c448f82b6ca9edf7963ca.setContent(html_53c16bb5f271461e8800a5858e8be164);
+            
+
+            marker_861014279a3a4ee58cef81e6e2f22f2f.bindPopup(popup_1e770dc04f5c448f82b6ca9edf7963ca);
+
+            
+        
+    
+
+            var marker_6ddbe084be1646918ec3d8fabc171c61 = L.marker(
+                [49.25196,-123.16905],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_10c6210af5d849e38df64ce1ce6f54eb = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_6ddbe084be1646918ec3d8fabc171c61.setIcon(icon_10c6210af5d849e38df64ce1ce6f54eb);
+            
+    
+            var popup_74f51ee4be91423486a2285392f34d9c = L.popup({maxWidth: '300'});
+
+            
+                var html_87695cf5c4f34410b935fbb235cbd7e4 = $('<div id="html_87695cf5c4f34410b935fbb235cbd7e4" style="width: 100.0%; height: 100.0%;">4947735-Entire home/apt-above 250-600.0</div>')[0];
+                popup_74f51ee4be91423486a2285392f34d9c.setContent(html_87695cf5c4f34410b935fbb235cbd7e4);
+            
+
+            marker_6ddbe084be1646918ec3d8fabc171c61.bindPopup(popup_74f51ee4be91423486a2285392f34d9c);
+
+            
+        
+    
+
+            var marker_c6cf168205e547b4969001420fe5b482 = L.marker(
+                [49.28096,-123.09448],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_a4ea02b2d9124dc7b86f58b6555e8872 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_c6cf168205e547b4969001420fe5b482.setIcon(icon_a4ea02b2d9124dc7b86f58b6555e8872);
+            
+    
+            var popup_1f5d3087cf0a43619f12f5d76e6596d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_841aaaf820da4598bb4ece7ef9569b3e = $('<div id="html_841aaaf820da4598bb4ece7ef9569b3e" style="width: 100.0%; height: 100.0%;">5391067-Entire home/apt-under 250-79.0</div>')[0];
+                popup_1f5d3087cf0a43619f12f5d76e6596d1.setContent(html_841aaaf820da4598bb4ece7ef9569b3e);
+            
+
+            marker_c6cf168205e547b4969001420fe5b482.bindPopup(popup_1f5d3087cf0a43619f12f5d76e6596d1);
+
+            
+        
+    
+
+            var marker_488445be16c443b6828ff5e4588eb018 = L.marker(
+                [49.28755,-123.12463999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_5568407c14ae4b3b85ea704b237a5417 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_488445be16c443b6828ff5e4588eb018.setIcon(icon_5568407c14ae4b3b85ea704b237a5417);
+            
+    
+            var popup_a4c2b26d2c69446796a33719e0f399ee = L.popup({maxWidth: '300'});
+
+            
+                var html_2e01172999a843858e5472025682031a = $('<div id="html_2e01172999a843858e5472025682031a" style="width: 100.0%; height: 100.0%;">7666084-Hotel room-under 250-220.0</div>')[0];
+                popup_a4c2b26d2c69446796a33719e0f399ee.setContent(html_2e01172999a843858e5472025682031a);
+            
+
+            marker_488445be16c443b6828ff5e4588eb018.bindPopup(popup_a4c2b26d2c69446796a33719e0f399ee);
+
+            
+        
+    
+
+            var marker_4e556d0c56a84e02b7468fa6ceea922b = L.marker(
+                [49.24754,-123.09045],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_559bf62904c74c91b953e514d4b36dbe = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_4e556d0c56a84e02b7468fa6ceea922b.setIcon(icon_559bf62904c74c91b953e514d4b36dbe);
+            
+    
+            var popup_20b9d07a96df4f7fa506c978283ba441 = L.popup({maxWidth: '300'});
+
+            
+                var html_d2323739b6124568ba6a332a5aac00da = $('<div id="html_d2323739b6124568ba6a332a5aac00da" style="width: 100.0%; height: 100.0%;">8616836-Entire home/apt-under 250-65.0</div>')[0];
+                popup_20b9d07a96df4f7fa506c978283ba441.setContent(html_d2323739b6124568ba6a332a5aac00da);
+            
+
+            marker_4e556d0c56a84e02b7468fa6ceea922b.bindPopup(popup_20b9d07a96df4f7fa506c978283ba441);
+
+            
+        
+    
+
+            var marker_644670a2af954407a345c11f6ae1fdd7 = L.marker(
+                [49.2704,-123.15738999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_e56516229e2c449ba697617ab499ba98 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_644670a2af954407a345c11f6ae1fdd7.setIcon(icon_e56516229e2c449ba697617ab499ba98);
+            
+    
+            var popup_5012eb2398cf4e3cb470f98e0e68b4d1 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c04502c26be40199a72835e66f0f1b4 = $('<div id="html_9c04502c26be40199a72835e66f0f1b4" style="width: 100.0%; height: 100.0%;">12083773-Entire home/apt-under 250-189.0</div>')[0];
+                popup_5012eb2398cf4e3cb470f98e0e68b4d1.setContent(html_9c04502c26be40199a72835e66f0f1b4);
+            
+
+            marker_644670a2af954407a345c11f6ae1fdd7.bindPopup(popup_5012eb2398cf4e3cb470f98e0e68b4d1);
+
+            
+        
+    
+
+            var marker_01044a2916ee478dadb6303f8ba9c671 = L.marker(
+                [49.255520000000004,-123.06957],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_721805fac81640d592ddb76ab99d13db = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_01044a2916ee478dadb6303f8ba9c671.setIcon(icon_721805fac81640d592ddb76ab99d13db);
+            
+    
+            var popup_dc9f1eefd3184514a64ac6d420e5d76f = L.popup({maxWidth: '300'});
+
+            
+                var html_c9d457e0458d4272910b61e9d59097a3 = $('<div id="html_c9d457e0458d4272910b61e9d59097a3" style="width: 100.0%; height: 100.0%;">12335248-Entire home/apt-above 250-375.0</div>')[0];
+                popup_dc9f1eefd3184514a64ac6d420e5d76f.setContent(html_c9d457e0458d4272910b61e9d59097a3);
+            
+
+            marker_01044a2916ee478dadb6303f8ba9c671.bindPopup(popup_dc9f1eefd3184514a64ac6d420e5d76f);
+
+            
+        
+    
+
+            var marker_36d2f9606254448c8311021877e05e1d = L.marker(
+                [49.26444,-123.14806000000002],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_b491f6a4fcc44aed97728b0fbfd9300f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_36d2f9606254448c8311021877e05e1d.setIcon(icon_b491f6a4fcc44aed97728b0fbfd9300f);
+            
+    
+            var popup_edf9350a3b014c34b9732bdb5b6bdcd9 = L.popup({maxWidth: '300'});
+
+            
+                var html_094e76ad1b3545eb9326791a056fccba = $('<div id="html_094e76ad1b3545eb9326791a056fccba" style="width: 100.0%; height: 100.0%;">12934598-Entire home/apt-under 250-147.0</div>')[0];
+                popup_edf9350a3b014c34b9732bdb5b6bdcd9.setContent(html_094e76ad1b3545eb9326791a056fccba);
+            
+
+            marker_36d2f9606254448c8311021877e05e1d.bindPopup(popup_edf9350a3b014c34b9732bdb5b6bdcd9);
+
+            
+        
+    
+
+            var marker_fea611e62b9242a7bb39f2cbd25ba823 = L.marker(
+                [49.25646,-123.15063],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_1ce827b9953848aba3d91fe322ddb4e6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_fea611e62b9242a7bb39f2cbd25ba823.setIcon(icon_1ce827b9953848aba3d91fe322ddb4e6);
+            
+    
+            var popup_56449d3e43984631b48b02654db2d241 = L.popup({maxWidth: '300'});
+
+            
+                var html_def59feb4e31486baa790cfea58b7e20 = $('<div id="html_def59feb4e31486baa790cfea58b7e20" style="width: 100.0%; height: 100.0%;">14919115-Private room-under 250-85.0</div>')[0];
+                popup_56449d3e43984631b48b02654db2d241.setContent(html_def59feb4e31486baa790cfea58b7e20);
+            
+
+            marker_fea611e62b9242a7bb39f2cbd25ba823.bindPopup(popup_56449d3e43984631b48b02654db2d241);
+
+            
+        
+    
+
+            var marker_b3becf69625e466799eaa220ecc1b158 = L.marker(
+                [49.27619,-123.05635],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_bb125721c07842f5a2afa03562b0e791 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_b3becf69625e466799eaa220ecc1b158.setIcon(icon_bb125721c07842f5a2afa03562b0e791);
+            
+    
+            var popup_691dc478d535476db5b0cbf1a23b68c1 = L.popup({maxWidth: '300'});
+
+            
+                var html_e8c870fc1ff74b279970b4bacc4ff1de = $('<div id="html_e8c870fc1ff74b279970b4bacc4ff1de" style="width: 100.0%; height: 100.0%;">14919183-Private room-under 250-50.0</div>')[0];
+                popup_691dc478d535476db5b0cbf1a23b68c1.setContent(html_e8c870fc1ff74b279970b4bacc4ff1de);
+            
+
+            marker_b3becf69625e466799eaa220ecc1b158.bindPopup(popup_691dc478d535476db5b0cbf1a23b68c1);
+
+            
+        
+    
+
+            var marker_2e05824b67474a9c95b899fdce2a58d4 = L.marker(
+                [49.28004,-123.11581000000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_fb10f98c4e1c4f35b34c160351f4cfc3 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_2e05824b67474a9c95b899fdce2a58d4.setIcon(icon_fb10f98c4e1c4f35b34c160351f4cfc3);
+            
+    
+            var popup_cab23bff7f8447a29f66e6a1030898a3 = L.popup({maxWidth: '300'});
+
+            
+                var html_892964bc066b43f2a0a75fa8e1d8cace = $('<div id="html_892964bc066b43f2a0a75fa8e1d8cace" style="width: 100.0%; height: 100.0%;">15287755-Entire home/apt-above 250-7880.0</div>')[0];
+                popup_cab23bff7f8447a29f66e6a1030898a3.setContent(html_892964bc066b43f2a0a75fa8e1d8cace);
+            
+
+            marker_2e05824b67474a9c95b899fdce2a58d4.bindPopup(popup_cab23bff7f8447a29f66e6a1030898a3);
+
+            
+        
+    
+
+            var marker_d9194f67d44a4ae4b3e37649f86325b8 = L.marker(
+                [49.25346,-123.07587],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_cf4a745a46294d008ffb4b533dd0fc9b = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d9194f67d44a4ae4b3e37649f86325b8.setIcon(icon_cf4a745a46294d008ffb4b533dd0fc9b);
+            
+    
+            var popup_526b4efc30fd44b1baf8c8f69d33f953 = L.popup({maxWidth: '300'});
+
+            
+                var html_692600e584554427b00942e02d2b9d53 = $('<div id="html_692600e584554427b00942e02d2b9d53" style="width: 100.0%; height: 100.0%;">18019961-Entire home/apt-above 250-301.0</div>')[0];
+                popup_526b4efc30fd44b1baf8c8f69d33f953.setContent(html_692600e584554427b00942e02d2b9d53);
+            
+
+            marker_d9194f67d44a4ae4b3e37649f86325b8.bindPopup(popup_526b4efc30fd44b1baf8c8f69d33f953);
+
+            
+        
+    
+
+            var marker_f3cfb7c9b3d74b6f98cca087fdd0aa67 = L.marker(
+                [49.27293,-123.15032],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_4d1e3173bb3040fbbc7dcc95862f32c6 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f3cfb7c9b3d74b6f98cca087fdd0aa67.setIcon(icon_4d1e3173bb3040fbbc7dcc95862f32c6);
+            
+    
+            var popup_e4a022d156c544ffbeb157af87ccde08 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb31cbb3e1414a0c84c21a37809558c1 = $('<div id="html_eb31cbb3e1414a0c84c21a37809558c1" style="width: 100.0%; height: 100.0%;">18638495-Entire home/apt-under 250-111.0</div>')[0];
+                popup_e4a022d156c544ffbeb157af87ccde08.setContent(html_eb31cbb3e1414a0c84c21a37809558c1);
+            
+
+            marker_f3cfb7c9b3d74b6f98cca087fdd0aa67.bindPopup(popup_e4a022d156c544ffbeb157af87ccde08);
+
+            
+        
+    
+
+            var marker_5d00d768e1d043f4bb563ed8490686f3 = L.marker(
+                [49.281459999999996,-123.13781999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_9558d52168b3491f9a2db6ef70382855 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_5d00d768e1d043f4bb563ed8490686f3.setIcon(icon_9558d52168b3491f9a2db6ef70382855);
+            
+    
+            var popup_468df25530ec48c2a18f95398d72043c = L.popup({maxWidth: '300'});
+
+            
+                var html_54227ccde7514628b5b1bc3514e151b3 = $('<div id="html_54227ccde7514628b5b1bc3514e151b3" style="width: 100.0%; height: 100.0%;">18668077-Entire home/apt-under 250-139.0</div>')[0];
+                popup_468df25530ec48c2a18f95398d72043c.setContent(html_54227ccde7514628b5b1bc3514e151b3);
+            
+
+            marker_5d00d768e1d043f4bb563ed8490686f3.bindPopup(popup_468df25530ec48c2a18f95398d72043c);
+
+            
+        
+    
+
+            var marker_9d95021cdfe74a56bb48d2a91eb95545 = L.marker(
+                [49.26925,-123.17488999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_2ef0b24d31f74e13a2cfcd5eef809fa8 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9d95021cdfe74a56bb48d2a91eb95545.setIcon(icon_2ef0b24d31f74e13a2cfcd5eef809fa8);
+            
+    
+            var popup_51f5ce107d9f405c8fce34ec45d7aab3 = L.popup({maxWidth: '300'});
+
+            
+                var html_25d82a7416e5484e9593ba1c72a435c6 = $('<div id="html_25d82a7416e5484e9593ba1c72a435c6" style="width: 100.0%; height: 100.0%;">18874822-Private room-under 250-70.0</div>')[0];
+                popup_51f5ce107d9f405c8fce34ec45d7aab3.setContent(html_25d82a7416e5484e9593ba1c72a435c6);
+            
+
+            marker_9d95021cdfe74a56bb48d2a91eb95545.bindPopup(popup_51f5ce107d9f405c8fce34ec45d7aab3);
+
+            
+        
+    
+
+            var marker_1745dc71439e4fa3b7c33f879eec0f43 = L.marker(
+                [49.27935,-123.10663000000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_651b655930c14375b94598a79e204337 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_1745dc71439e4fa3b7c33f879eec0f43.setIcon(icon_651b655930c14375b94598a79e204337);
+            
+    
+            var popup_8be9d477f00e4dcf947ba8a1e0d3091e = L.popup({maxWidth: '300'});
+
+            
+                var html_a1871a539e5d42709b58285c59196b2d = $('<div id="html_a1871a539e5d42709b58285c59196b2d" style="width: 100.0%; height: 100.0%;">18894773-Entire home/apt-under 250-105.0</div>')[0];
+                popup_8be9d477f00e4dcf947ba8a1e0d3091e.setContent(html_a1871a539e5d42709b58285c59196b2d);
+            
+
+            marker_1745dc71439e4fa3b7c33f879eec0f43.bindPopup(popup_8be9d477f00e4dcf947ba8a1e0d3091e);
+
+            
+        
+    
+
+            var marker_439c9c90fce244dc84d16507d2c0fdfc = L.marker(
+                [49.22824,-123.10054],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_294024e5989b4410bc98dcd29ce16c48 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_439c9c90fce244dc84d16507d2c0fdfc.setIcon(icon_294024e5989b4410bc98dcd29ce16c48);
+            
+    
+            var popup_ea2e1049408d4dfaa6d8eb8d75ee8857 = L.popup({maxWidth: '300'});
+
+            
+                var html_ef5a025867b94977bee07d935d485a02 = $('<div id="html_ef5a025867b94977bee07d935d485a02" style="width: 100.0%; height: 100.0%;">18933939-Entire home/apt-above 250-662.0</div>')[0];
+                popup_ea2e1049408d4dfaa6d8eb8d75ee8857.setContent(html_ef5a025867b94977bee07d935d485a02);
+            
+
+            marker_439c9c90fce244dc84d16507d2c0fdfc.bindPopup(popup_ea2e1049408d4dfaa6d8eb8d75ee8857);
+
+            
+        
+    
+
+            var marker_ca2e698fa2464248aa8e41cd96784783 = L.marker(
+                [49.27848,-123.09901],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_a01f86c13a064f7aae61bcf66a6a2450 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_ca2e698fa2464248aa8e41cd96784783.setIcon(icon_a01f86c13a064f7aae61bcf66a6a2450);
+            
+    
+            var popup_8d58c43a185d401990f22f58cf54b023 = L.popup({maxWidth: '300'});
+
+            
+                var html_761bfbbb9a194139857b88e78bf5e3ab = $('<div id="html_761bfbbb9a194139857b88e78bf5e3ab" style="width: 100.0%; height: 100.0%;">20284672-Entire home/apt-above 250-279.0</div>')[0];
+                popup_8d58c43a185d401990f22f58cf54b023.setContent(html_761bfbbb9a194139857b88e78bf5e3ab);
+            
+
+            marker_ca2e698fa2464248aa8e41cd96784783.bindPopup(popup_8d58c43a185d401990f22f58cf54b023);
+
+            
+        
+    
+
+            var marker_116e74a96a0a4d18ad9a4cca2884cb6f = L.marker(
+                [49.255309999999994,-123.08033],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_51bc691167414123a50b3c0ffd632912 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_116e74a96a0a4d18ad9a4cca2884cb6f.setIcon(icon_51bc691167414123a50b3c0ffd632912);
+            
+    
+            var popup_3b2498d13abc4e21823772e3e9c9bc6a = L.popup({maxWidth: '300'});
+
+            
+                var html_5e2d64e6bbc64e6a85b9a867864c23eb = $('<div id="html_5e2d64e6bbc64e6a85b9a867864c23eb" style="width: 100.0%; height: 100.0%;">21813103-Entire home/apt-under 250-220.0</div>')[0];
+                popup_3b2498d13abc4e21823772e3e9c9bc6a.setContent(html_5e2d64e6bbc64e6a85b9a867864c23eb);
+            
+
+            marker_116e74a96a0a4d18ad9a4cca2884cb6f.bindPopup(popup_3b2498d13abc4e21823772e3e9c9bc6a);
+
+            
+        
+    
+
+            var marker_855bbf7ff9cb4d78998dba2a2cbd8229 = L.marker(
+                [49.266009999999994,-123.19317],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_c867431c8b3b4859a62a861438e38a25 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_855bbf7ff9cb4d78998dba2a2cbd8229.setIcon(icon_c867431c8b3b4859a62a861438e38a25);
+            
+    
+            var popup_e5f9a640f19940b2b4bd4a2baeb2aca1 = L.popup({maxWidth: '300'});
+
+            
+                var html_82fabc30e8224c43983d2c3d3e70c938 = $('<div id="html_82fabc30e8224c43983d2c3d3e70c938" style="width: 100.0%; height: 100.0%;">22455221-Entire home/apt-above 250-975.0</div>')[0];
+                popup_e5f9a640f19940b2b4bd4a2baeb2aca1.setContent(html_82fabc30e8224c43983d2c3d3e70c938);
+            
+
+            marker_855bbf7ff9cb4d78998dba2a2cbd8229.bindPopup(popup_e5f9a640f19940b2b4bd4a2baeb2aca1);
+
+            
+        
+    
+
+            var marker_66a3332cf56c43e5898c6950ab25780c = L.marker(
+                [49.27865,-123.10797],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_dfd46c13291b45589da3fa15f21f92af = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_66a3332cf56c43e5898c6950ab25780c.setIcon(icon_dfd46c13291b45589da3fa15f21f92af);
+            
+    
+            var popup_ff8fbbfed215499085463a67c31a7859 = L.popup({maxWidth: '300'});
+
+            
+                var html_e1cdaff45a254de1be0e1c8f8196d6e0 = $('<div id="html_e1cdaff45a254de1be0e1c8f8196d6e0" style="width: 100.0%; height: 100.0%;">22956917-Private room-under 250-44.0</div>')[0];
+                popup_ff8fbbfed215499085463a67c31a7859.setContent(html_e1cdaff45a254de1be0e1c8f8196d6e0);
+            
+
+            marker_66a3332cf56c43e5898c6950ab25780c.bindPopup(popup_ff8fbbfed215499085463a67c31a7859);
+
+            
+        
+    
+
+            var marker_e2c2d5f989b84465a4c4c128880bc38e = L.marker(
+                [49.26787,-123.18163999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_51ccaa57b21d479197ede6690281c4e0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_e2c2d5f989b84465a4c4c128880bc38e.setIcon(icon_51ccaa57b21d479197ede6690281c4e0);
+            
+    
+            var popup_24c0ca3c30ed40d290bfc550ec6c5065 = L.popup({maxWidth: '300'});
+
+            
+                var html_19d6d3d6729440d59e2e051d705c1737 = $('<div id="html_19d6d3d6729440d59e2e051d705c1737" style="width: 100.0%; height: 100.0%;">23125839-Entire home/apt-above 250-465.0</div>')[0];
+                popup_24c0ca3c30ed40d290bfc550ec6c5065.setContent(html_19d6d3d6729440d59e2e051d705c1737);
+            
+
+            marker_e2c2d5f989b84465a4c4c128880bc38e.bindPopup(popup_24c0ca3c30ed40d290bfc550ec6c5065);
+
+            
+        
+    
+
+            var marker_affe73c39501430d845d9e31c647dd54 = L.marker(
+                [49.28097,-123.10878999999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_82f3c3901c5140d8bafa7acca3764f0c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_affe73c39501430d845d9e31c647dd54.setIcon(icon_82f3c3901c5140d8bafa7acca3764f0c);
+            
+    
+            var popup_325ce46c2fe74f64a09626ca90f29ca3 = L.popup({maxWidth: '300'});
+
+            
+                var html_105b68f9a1d945a6b5f882d13e817e8d = $('<div id="html_105b68f9a1d945a6b5f882d13e817e8d" style="width: 100.0%; height: 100.0%;">23711804-Entire home/apt-above 250-501.0</div>')[0];
+                popup_325ce46c2fe74f64a09626ca90f29ca3.setContent(html_105b68f9a1d945a6b5f882d13e817e8d);
+            
+
+            marker_affe73c39501430d845d9e31c647dd54.bindPopup(popup_325ce46c2fe74f64a09626ca90f29ca3);
+
+            
+        
+    
+
+            var marker_9aadbc4fe1fa4092877fa818cd83d896 = L.marker(
+                [49.27615,-123.03872],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_48efa19a96cd4f25b45eb6543c459dee = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_9aadbc4fe1fa4092877fa818cd83d896.setIcon(icon_48efa19a96cd4f25b45eb6543c459dee);
+            
+    
+            var popup_5b2e4557fe1047a780120298789decf8 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c4279341e66460fac2a14b6321d3de5 = $('<div id="html_9c4279341e66460fac2a14b6321d3de5" style="width: 100.0%; height: 100.0%;">25130708-Entire home/apt-under 250-200.0</div>')[0];
+                popup_5b2e4557fe1047a780120298789decf8.setContent(html_9c4279341e66460fac2a14b6321d3de5);
+            
+
+            marker_9aadbc4fe1fa4092877fa818cd83d896.bindPopup(popup_5b2e4557fe1047a780120298789decf8);
+
+            
+        
+    
+
+            var marker_662caa9e890a435bb26a38467c277e02 = L.marker(
+                [49.22655,-123.15562],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_88c3b4204d0e482b95b51d97c6a81493 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_662caa9e890a435bb26a38467c277e02.setIcon(icon_88c3b4204d0e482b95b51d97c6a81493);
+            
+    
+            var popup_dcf16fb6763f4743954e81ee6ac468ca = L.popup({maxWidth: '300'});
+
+            
+                var html_50ba439f32874b09a41c971932139c2a = $('<div id="html_50ba439f32874b09a41c971932139c2a" style="width: 100.0%; height: 100.0%;">26516680-Entire home/apt-above 250-399.0</div>')[0];
+                popup_dcf16fb6763f4743954e81ee6ac468ca.setContent(html_50ba439f32874b09a41c971932139c2a);
+            
+
+            marker_662caa9e890a435bb26a38467c277e02.bindPopup(popup_dcf16fb6763f4743954e81ee6ac468ca);
+
+            
+        
+    
+
+            var marker_f92a8a0f02874085846d0adc8533030b = L.marker(
+                [49.237140000000004,-123.04671],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_4487695edc6c42c388509532dcb20cc0 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f92a8a0f02874085846d0adc8533030b.setIcon(icon_4487695edc6c42c388509532dcb20cc0);
+            
+    
+            var popup_a380c02a41034698a1f73a495e3ba9a9 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b82c8dd4c024b2e88e8ce6fb3c3f0ac = $('<div id="html_8b82c8dd4c024b2e88e8ce6fb3c3f0ac" style="width: 100.0%; height: 100.0%;">27509280-Private room-under 250-79.0</div>')[0];
+                popup_a380c02a41034698a1f73a495e3ba9a9.setContent(html_8b82c8dd4c024b2e88e8ce6fb3c3f0ac);
+            
+
+            marker_f92a8a0f02874085846d0adc8533030b.bindPopup(popup_a380c02a41034698a1f73a495e3ba9a9);
+
+            
+        
+    
+
+            var marker_328475b1906643ecbf0fa6b7aa8d5b54 = L.marker(
+                [49.280590000000004,-123.13516000000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_1330a41ac6aa498b9c6b7533cce4ddb7 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_328475b1906643ecbf0fa6b7aa8d5b54.setIcon(icon_1330a41ac6aa498b9c6b7533cce4ddb7);
+            
+    
+            var popup_eefcc32b6c7847db9d898f4170fce65c = L.popup({maxWidth: '300'});
+
+            
+                var html_277182b1a1b44b63b3e6802b719ed0f3 = $('<div id="html_277182b1a1b44b63b3e6802b719ed0f3" style="width: 100.0%; height: 100.0%;">31343548-Entire home/apt-under 250-85.0</div>')[0];
+                popup_eefcc32b6c7847db9d898f4170fce65c.setContent(html_277182b1a1b44b63b3e6802b719ed0f3);
+            
+
+            marker_328475b1906643ecbf0fa6b7aa8d5b54.bindPopup(popup_eefcc32b6c7847db9d898f4170fce65c);
+
+            
+        
+    
+
+            var marker_f45dc1ab7fdd4a04b4ce83cea9d4d385 = L.marker(
+                [49.25484,-123.09366000000001],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_7d8fcb35a00b452681c3410532a1c263 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_f45dc1ab7fdd4a04b4ce83cea9d4d385.setIcon(icon_7d8fcb35a00b452681c3410532a1c263);
+            
+    
+            var popup_dc0b771dd05e4868af56ef1119f32b01 = L.popup({maxWidth: '300'});
+
+            
+                var html_b25fe90ee691444cad5415accb3f391a = $('<div id="html_b25fe90ee691444cad5415accb3f391a" style="width: 100.0%; height: 100.0%;">31941008-Entire home/apt-under 250-160.0</div>')[0];
+                popup_dc0b771dd05e4868af56ef1119f32b01.setContent(html_b25fe90ee691444cad5415accb3f391a);
+            
+
+            marker_f45dc1ab7fdd4a04b4ce83cea9d4d385.bindPopup(popup_dc0b771dd05e4868af56ef1119f32b01);
+
+            
+        
+    
+
+            var marker_72f16359ce3e4ddc9307f1017b86b032 = L.marker(
+                [49.25212,-123.11923999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_0dfb0d14b85449e4aa2148334e8bccf4 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_72f16359ce3e4ddc9307f1017b86b032.setIcon(icon_0dfb0d14b85449e4aa2148334e8bccf4);
+            
+    
+            var popup_aa0fc8348d5b4fa59ca1cf36ea5c7323 = L.popup({maxWidth: '300'});
+
+            
+                var html_0d6a7f389ce1460dbf0c86847fdd8725 = $('<div id="html_0d6a7f389ce1460dbf0c86847fdd8725" style="width: 100.0%; height: 100.0%;">33857514-Entire home/apt-under 250-121.0</div>')[0];
+                popup_aa0fc8348d5b4fa59ca1cf36ea5c7323.setContent(html_0d6a7f389ce1460dbf0c86847fdd8725);
+            
+
+            marker_72f16359ce3e4ddc9307f1017b86b032.bindPopup(popup_aa0fc8348d5b4fa59ca1cf36ea5c7323);
+
+            
+        
+    
+
+            var marker_183c73b751d54ed0afd5fd8035d0e5b8 = L.marker(
+                [49.27,-123.07038999999999],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_3da8f43382154b6aa22ab59b24acae3a = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_183c73b751d54ed0afd5fd8035d0e5b8.setIcon(icon_3da8f43382154b6aa22ab59b24acae3a);
+            
+    
+            var popup_88db6efb89b849248ea8d92d524dd1c6 = L.popup({maxWidth: '300'});
+
+            
+                var html_ade4c6cc477a46eeba28de6129bb1849 = $('<div id="html_ade4c6cc477a46eeba28de6129bb1849" style="width: 100.0%; height: 100.0%;">34201735-Entire home/apt-under 250-101.0</div>')[0];
+                popup_88db6efb89b849248ea8d92d524dd1c6.setContent(html_ade4c6cc477a46eeba28de6129bb1849);
+            
+
+            marker_183c73b751d54ed0afd5fd8035d0e5b8.bindPopup(popup_88db6efb89b849248ea8d92d524dd1c6);
+
+            
+        
+    
+
+            var marker_8b635cd4df3846339328fd5a9009d7db = L.marker(
+                [49.27877,-123.12633999999998],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_5a71395553494aa7a1613f4c9b04732f = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_8b635cd4df3846339328fd5a9009d7db.setIcon(icon_5a71395553494aa7a1613f4c9b04732f);
+            
+    
+            var popup_2eb96da5bd904d48aa1dc9283a95b665 = L.popup({maxWidth: '300'});
+
+            
+                var html_663cb1bd6c214a069d20cc520a771980 = $('<div id="html_663cb1bd6c214a069d20cc520a771980" style="width: 100.0%; height: 100.0%;">34541905-Entire home/apt-under 250-200.0</div>')[0];
+                popup_2eb96da5bd904d48aa1dc9283a95b665.setContent(html_663cb1bd6c214a069d20cc520a771980);
+            
+
+            marker_8b635cd4df3846339328fd5a9009d7db.bindPopup(popup_2eb96da5bd904d48aa1dc9283a95b665);
+
+            
+        
+    
+
+            var marker_d6e8d382101a460f9a4f13a8bc72b4f1 = L.marker(
+                [49.2882,-123.1322],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_af01600e7e3848e5b8972b0dd5e041e1 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_d6e8d382101a460f9a4f13a8bc72b4f1.setIcon(icon_af01600e7e3848e5b8972b0dd5e041e1);
+            
+    
+            var popup_a8702acc85f2480a8c3fa13c15a161b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_5ec674f3bc4a4e31a6154304929b6e22 = $('<div id="html_5ec674f3bc4a4e31a6154304929b6e22" style="width: 100.0%; height: 100.0%;">34581909-Entire home/apt-above 250-301.0</div>')[0];
+                popup_a8702acc85f2480a8c3fa13c15a161b8.setContent(html_5ec674f3bc4a4e31a6154304929b6e22);
+            
+
+            marker_d6e8d382101a460f9a4f13a8bc72b4f1.bindPopup(popup_a8702acc85f2480a8c3fa13c15a161b8);
+
+            
+        
+    
+
+            var marker_390d8acf86d541988407065a3ac25ad3 = L.marker(
+                [49.28808,-123.13252],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_389abdb9a42941209326b1dabce68042 = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_390d8acf86d541988407065a3ac25ad3.setIcon(icon_389abdb9a42941209326b1dabce68042);
+            
+    
+            var popup_97fb880198dd4f03815efdb13392bde2 = L.popup({maxWidth: '300'});
+
+            
+                var html_a4c9581993ba4ecfa81a3b4f898f63b8 = $('<div id="html_a4c9581993ba4ecfa81a3b4f898f63b8" style="width: 100.0%; height: 100.0%;">35472485-Entire home/apt-above 250-501.0</div>')[0];
+                popup_97fb880198dd4f03815efdb13392bde2.setContent(html_a4c9581993ba4ecfa81a3b4f898f63b8);
+            
+
+            marker_390d8acf86d541988407065a3ac25ad3.bindPopup(popup_97fb880198dd4f03815efdb13392bde2);
+
+            
+        
+    
+
+            var marker_43da5c5e70624061a5914043d6814b82 = L.marker(
+                [49.287079999999996,-123.13316],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_f8dda30d94d94d18b38fbda7280d4b5d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_43da5c5e70624061a5914043d6814b82.setIcon(icon_f8dda30d94d94d18b38fbda7280d4b5d);
+            
+    
+            var popup_a771a85e4c904307aa92554b005dfbf4 = L.popup({maxWidth: '300'});
+
+            
+                var html_8b3305bef8a74259854443cf4940e240 = $('<div id="html_8b3305bef8a74259854443cf4940e240" style="width: 100.0%; height: 100.0%;">35721607-Entire home/apt-above 250-450.0</div>')[0];
+                popup_a771a85e4c904307aa92554b005dfbf4.setContent(html_8b3305bef8a74259854443cf4940e240);
+            
+
+            marker_43da5c5e70624061a5914043d6814b82.bindPopup(popup_a771a85e4c904307aa92554b005dfbf4);
+
+            
+        
+    
+
+            var marker_74d210b42ab14dacaf754c9e05c5c34a = L.marker(
+                [49.27646,-123.11758],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_cfc5d878706440f0a33d68bf715ffc0d = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'pink',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_74d210b42ab14dacaf754c9e05c5c34a.setIcon(icon_cfc5d878706440f0a33d68bf715ffc0d);
+            
+    
+            var popup_d6386183dd09448e87e5ba811ca12bd0 = L.popup({maxWidth: '300'});
+
+            
+                var html_0cdf339ba9ad4fdea1c33a3c03ea9151 = $('<div id="html_0cdf339ba9ad4fdea1c33a3c03ea9151" style="width: 100.0%; height: 100.0%;">36841352-Entire home/apt-under 250-189.0</div>')[0];
+                popup_d6386183dd09448e87e5ba811ca12bd0.setContent(html_0cdf339ba9ad4fdea1c33a3c03ea9151);
+            
+
+            marker_74d210b42ab14dacaf754c9e05c5c34a.bindPopup(popup_d6386183dd09448e87e5ba811ca12bd0);
+
+            
+        
+    
+
+            var marker_695edd812c2043d0ac829e0ca93deca6 = L.marker(
+                [49.23485,-123.10042],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_12758bc759e546c08f4d79c3eb222a02);
+            
+    
+
+                var icon_c9f20c82206a437b94f52e76c990736c = L.AwesomeMarkers.icon({
+                    icon: 'info-sign',
+                    iconColor: 'white',
+                    markerColor: 'blue',
+                    prefix: 'glyphicon',
+                    extraClasses: 'fa-rotate-0'
+                    });
+                marker_695edd812c2043d0ac829e0ca93deca6.setIcon(icon_c9f20c82206a437b94f52e76c990736c);
+            
+    
+            var popup_0b97d638666740e6bfe8f54d1537d84b = L.popup({maxWidth: '300'});
+
+            
+                var html_12238eb52d574a4ab350265a1d599334 = $('<div id="html_12238eb52d574a4ab350265a1d599334" style="width: 100.0%; height: 100.0%;">37538872-Entire home/apt-above 250-2000.0</div>')[0];
+                popup_0b97d638666740e6bfe8f54d1537d84b.setContent(html_12238eb52d574a4ab350265a1d599334);
+            
+
+            marker_695edd812c2043d0ac829e0ca93deca6.bindPopup(popup_0b97d638666740e6bfe8f54d1537d84b);
+
+            
+        
+</script>
